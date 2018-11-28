@@ -1,0 +1,60 @@
+% ---------------------------------------------------------------------------
+\documentclass[10pt,journal,cspaper,compsoc]{journeevisu}
+
+% ------------------------------------------------------------------------
+
+\usepackage[pdftex]{graphicx} 
+
+\usepackage{t1enc}
+
+\usepackage{cite}
+
+
+\TitreVisu{Titre de mon Exposé en Français}{English title}
+\ShortBib{My name \MakeLowercase{\textit{et al.}}: My contribution title}
+
+\author{ Moi et mes co-auteurs
+\IEEEcompsocitemizethanks{
+\IEEEcompsocthanksitem Moi même: affiliation
+  \protect\\E-mail: monemail@domain.fr.
+\IEEEcompsocthanksitem Co-auteur1: affiliation
+  \protect\\E-mail: coauteur1@domain.fr.
+\IEEEcompsocthanksitem Co-auteurN: affiliation
+  \protect\\E-mail: coauteurN@domain.fr.
+}
+}
+
+% ------------------------------------------------------------------------
+
+\IEEEcompsoctitleabstractindextext{
+
+\begin{abstract}
+  This is an abstract in English of the talk I will give.
+\end{abstract}
+
+}
+
+\begin{document}
+
+\maketitle
+
+
+
+%-------------------------------------------------------------------------
+\section{Introduction}
+Ici commence mon résumé en français, plus détaillé.
+
+\section{Conclusion}
+Ce document n'excède pas deux pages, plus une page optionnelle incluant les
+figures en couleur.
+
+Ne pas oublier de dé-commenter la ligne 
+\texttt{\textbackslash bibliography\{abstract\}}, une fois que le texte
+comportera des références (\texttt{\textbackslash cite\{ref1\}}).
+
+%-------------------------------------------------------------------------
+\bibliographystyle{abbrv}
+%\bibliography{abstract}
+
+%-------------------------------------------------------------------------
+\end{document}
