@@ -1,2 +1,2 @@
 # journee-visualisation.github.io
-Journée Visu - La journée annuelle du GT Visualisation du GDR IGRV
+Journée Visu - La journée annuelle du GT Visualisation du GDR IGRV et GDR IHM
